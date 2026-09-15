@@ -1,0 +1,9 @@
+console.log("Portfolio website loaded!");
+
+const links = document.querySelectorAll("nav a");
+
+links.forEach(link => {
+    link.addEventListener("click", () => {
+        console.log("Navigation clicked");
+    });
+});
